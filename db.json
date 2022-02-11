@@ -1,7 +1,195 @@
 {
     "piecesOfWork": [
-        {"name": "TrueArt","image":"url","location":"","createdAt":"date"},
-        {"name": "TrueArt","image":"url","location":"","createdAt":"date"},
-        {"name": "TrueArt","image":"url","location":"","createdAt":"date"}
+        {
+            "id": 1,
+            "name": "Nice art",
+            "image": "https://picsum.photos/id/20/300/300",
+            "location": "Rouen",
+            "createdAt": "18/08/2022 02:53:13",
+            "favorite": true,
+            "likes": 73394
+        },
+        {
+            "id": 2,
+            "name": "True Art",
+            "image": "https://picsum.photos/id/21/300/300",
+            "location": "Paris",
+            "createdAt": "14/07/2022 07:09:55",
+            "likes": 21943
+        },
+        {
+            "id": 3,
+            "name": "Native Art",
+            "image": "https://picsum.photos/id/22/300/300",
+            "location": "Lyon",
+            "createdAt": "20/05/2022 01:35:24",
+            "favorite": true,
+            "likes": 400
+        },
+        {
+            "id": 4,
+            "name": "Street Art",
+            "image": "https://picsum.photos/id/23/300/300",
+            "location": "New-York",
+            "createdAt": "23/10/2022 03:02:22",
+            "favorite": true,
+            "likes": 5432135
+        },
+        {
+            "id": 5,
+            "name": "Moving Art",
+            "image": "https://picsum.photos/id/24/300/300",
+            "location": "Seoul",
+            "createdAt": "03/04/2022 23:30:20",
+            "likes": 93543
+        },
+        {
+            "id": 6,
+            "name": "TrueArt Oran",
+            "image": "https://picsum.photos/id/25/300/300",
+            "location": "Oran",
+            "createdAt": "13/03/2022 06:10:51",
+            "likes": 7354
+        },
+        {
+            "id": 7,
+            "name": "TrueArt Le Caire",
+            "image": "https://picsum.photos/id/26/300/300",
+            "location": "Le Caire",
+            "createdAt": "10/05/2022 00:57:57",
+            "likes": 46231
+        },
+        {
+            "id": 8,
+            "name": "TrueArt Moscou",
+            "image": "https://picsum.photos/id/27/300/300",
+            "location": "Moscou",
+            "createdAt": "31/01/2022 15:03:03",
+            "likes": 84123
+        },
+        {
+            "id": 9,
+            "name": "TrueArt Londre",
+            "image": "https://picsum.photos/id/28/300/300",
+            "location": "Londre",
+            "createdAt": "27/11/2022 04:55:23",
+            "likes": 85315
+        },
+        {
+            "id": 10,
+            "name": "TrueArt Cracovie",
+            "image": "https://picsum.photos/id/29/300/300",
+            "location": "Cracovie",
+            "createdAt": "09/07/2022 04:00:07",
+            "likes": 864654
+        },
+        {
+            "id": 11,
+            "name": "TrueArt Wieliczka",
+            "image": "https://picsum.photos/id/30/300/300",
+            "location": "Wieliczka",
+            "createdAt": "26/06/2022 13:49:44",
+            "likes": 96213
+        },
+        {
+            "id": 12,
+            "name": "TrueArt Hambourg",
+            "image": "https://picsum.photos/id/31/300/300",
+            "location": "Hambourg",
+            "createdAt": "04/05/2022 17:54:28",
+            "likes": 956462
+        },
+        {
+            "id": 13,
+            "name": "TrueArt Nantes",
+            "image": "https://picsum.photos/id/32/300/300",
+            "location": "Nantes",
+            "createdAt": "26/01/2022 08:40:02",
+            "likes": 400455
+        },
+        {
+            "id": 14,
+            "name": "TrueArt Paris 3",
+            "image": "https://picsum.photos/id/50/300/300",
+            "location": "Paris",
+            "createdAt": "05/10/2022 08:13:43",
+            "favorite": true,
+            "likes": 45654
+        },
+        {
+            "id": 15,
+            "name": "TrueArt Reze",
+            "image": "https://picsum.photos/id/220/300/300",
+            "location": "Reze",
+            "createdAt": "17/05/2022 18:04:22",
+            "likes": 4354354
+        },
+        {
+            "id": 16,
+            "name": "TrueArt Los Angeles",
+            "image": "https://picsum.photos/id/241/300/300",
+            "location": "Los Angeles",
+            "createdAt": "05/06/2022 16:33:43",
+            "favorite": true,
+            "likes": 561
+        },
+        {
+            "id": 17,
+            "name": "True Art Paris 1",
+            "image": "https://picsum.photos/id/243/300/300",
+            "location": "Paris",
+            "createdAt": "16/01/2022 07:12:42",
+            "likes": 495
+        },
+        {
+            "id": 18,
+            "name": "True Art Paris 2",
+            "image": "https://picsum.photos/id/782/300/300",
+            "location": "Paris",
+            "createdAt": "19/09/2022 10:33:10",
+            "likes": 201
+        }
+    ],
+    "favorites": [
+        {
+            "id": 1,
+            "name": "Nice art",
+            "image": "https://picsum.photos/id/20/300/300",
+            "location": "Rouen",
+            "createdAt": "18/08/2022 02:53:13",
+            "likes": 73394
+        },
+        {
+            "id": 3,
+            "name": "Native Art",
+            "image": "https://picsum.photos/id/22/300/300",
+            "location": "Lyon",
+            "createdAt": "20/05/2022 01:35:24",
+            "likes": 400
+        },
+        {
+            "id": 4,
+            "name": "Street Art",
+            "image": "https://picsum.photos/id/23/300/300",
+            "location": "New-York",
+            "createdAt": "23/10/2022 03:02:22",
+            "likes": 5432135
+        },
+        {
+            "id": 14,
+            "name": "TrueArt",
+            "image": "https://picsum.photos/id/50/300/300",
+            "location": "Paris",
+            "createdAt": "05/10/2022 08:13:43",
+            "likes": 45654
+        },
+        {
+            "id": 16,
+            "name": "No name Art",
+            "image": "https://picsum.photos/id/241/300/300",
+            "location": "Los Angeles",
+            "createdAt": "05/06/2022 16:33:43",
+            "likes": 561
+        }
     ]
 }

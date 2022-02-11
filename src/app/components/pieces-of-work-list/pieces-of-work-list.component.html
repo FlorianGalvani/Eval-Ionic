@@ -1,0 +1,25 @@
+<ion-content>
+    <ion-list>
+      <ion-card *ngFor="let item of piecesOfWork">
+        <div>
+          <ion-img [src]="item.image" [alt]="item.name"></ion-img>
+        </div>
+        <ion-card-content>
+          <ion-card-title>{{ item.name }}</ion-card-title>
+          <p>{{ item.location }}</p>
+          <p>{{ item.createdAt }}</p>
+          <div class="likes">
+            <ion-icon *ngIf="!showFavoriteButton && !item.favorite" name="heart-outline"></ion-icon>
+            <ion-icon *ngIf="!showFavoriteButton && item.favorite" name="heart"></ion-icon>
+            <ion-icon *ngIf="showFavoriteButton" name="heart-dislike-outline"></ion-icon>
+            {{item.likes}}
+          </div>
+        </ion-card-content>
+      </ion-card>
+      </ion-list>
+  
+      <ion-infinite-scroll (ionInfinite)="loadData($event)">
+        <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Loading more data...">
+        </ion-infinite-scroll-content>
+      </ion-infinite-scroll>
+</ion-content>

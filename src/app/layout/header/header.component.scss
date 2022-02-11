@@ -1,0 +1,36 @@
+
+.header {
+    ion-icon {
+        font-size: 24px;
+    }
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 5%;
+    .headerLeft {
+        width: 20%;
+    }
+    .headerRight {
+        width: 20%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .notificationBtn {
+            position: relative;
+            height: 24px;
+            ion-badge{
+                position: absolute;
+                width: 10%;
+
+                bottom: 0;
+            }
+        }
+        img {
+            max-width: 24px;
+            background-color: #fff;
+        }
+    }
+}

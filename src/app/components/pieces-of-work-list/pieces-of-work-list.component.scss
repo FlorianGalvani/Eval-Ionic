@@ -1,0 +1,38 @@
+ion-content {
+    height: 100%;
+}
+ion-list {
+    ion-card {
+        display: flex;
+        div {
+            width: 55%;
+            ion-img {
+            }
+        }
+        ion-card-content {
+            position: relative;
+            width: 45%;
+
+            text-align: center;
+            ion-card-title {
+                font-size: 1.4em;
+                margin-bottom: 10%;
+            }
+            p {
+                font-size: 1.2em;
+            }
+            .likes {
+                position: absolute;
+                bottom: 20px;
+                right: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                ion-icon {
+                    margin-right: 4%;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
